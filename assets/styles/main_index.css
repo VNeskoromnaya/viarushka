@@ -22,6 +22,11 @@
     line-height: 35px;
 }    
 
+.btn__buy:hover {
+    background-color: rgba(117, 78, 216, 0.9);
+    border: 1px solid rgb(180, 167, 212);
+}
+
 .btn__buy > img {
     width: 40px;
 }

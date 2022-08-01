@@ -60,18 +60,18 @@
     margin-left: 11px;
 }
 
-/* .logo > a {
-    text-decoration: none;
-    color: inherit;
-} */
-
 .btn__basket {
     width: 115px;
     height: 38px;
     font-size: 13px;
     letter-spacing: 1px;
     line-height: 13px;
-}    
+} 
+
+.btn__basket:hover {
+    background-color: rgba(117, 78, 216, 0.9);
+    border: 1px solid rgb(180, 167, 212);
+}
 
 .btn__basket > img {
     width: 12px;

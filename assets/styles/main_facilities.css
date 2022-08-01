@@ -61,3 +61,8 @@ input[type="email"] {
     border: none;
     padding: 14px 14px 11px 16px;
 }
+
+.btn__subscribe:hover {
+    background-color: rgba(117, 78, 216, 0.9);
+    border: 1px solid rgb(180, 167, 212);
+}

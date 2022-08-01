@@ -1,5 +1,6 @@
 @import url('/assets/styles/header.css');
 @import url('/assets/styles/main_index.css');
+@import url('/assets/styles/main_facilities.css');
 @import url('/assets/styles/footer.css');
 
 /* @font-face {
@@ -13,7 +14,7 @@
     src: url('/assets/fonts/Intro/IntroDemo-BlackCAPS.otf');
 }
 
-/* для текстов */
+/* для текстa */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 html,
@@ -22,6 +23,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .wrap {
@@ -52,10 +54,16 @@ body {
     font-family: 'Intro Demo Black CAPS', serif;
     font-size: 60px;
     margin: 0;
+    color: #000000;
 }
 
 .subtitle {
-
+    font-family: 'Intro Demo Black CAPS', serif;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0;
+    color: #000000;
+    text-transform: uppercase;
 }
 
 .text {
@@ -64,6 +72,6 @@ body {
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
-    line-height: 160%;    
+    line-height: 32px;    
     color: #000000;
 }

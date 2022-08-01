@@ -27,8 +27,6 @@ body {
 }
 
 .wrap {
-    background-color: bisque;
-    /* удалить backgriud */
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;

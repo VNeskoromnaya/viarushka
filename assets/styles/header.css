@@ -1,25 +1,31 @@
 .header {
-    width: 100%;
-    max-width: 1290px;
-    padding: 50px 74px 0 76px;
+    max-width: 100%;
+    padding: 50px 5.7% 0 5.7%;
 }
+
 .header__wrap {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
+
 .logo {
+    display: block;
     position: relative;
     height: 40px;
     max-width: 216px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-decoration: none;
+    color: inherit;
 }
+
 .logo__img {
     width: 40px;
 }
+
 .logo__img_blue {
     display: inline-block;
     width: 28px;
@@ -32,6 +38,7 @@
     bottom: 30%;
     background-color: rgb(82, 34, 208, 1);
 }
+
 .logo__img_red {
     display: inline-block;
     width: 28px;
@@ -45,12 +52,18 @@
     background-color:rgba(236, 97, 91, 1);
     mix-blend-mode: multiply;
 }
+
 .logo__text {
     font-family: 'Intro Demo Black CAPS', serif;
     font-size: 17.75px;
     letter-spacing: 1.2px;
     margin-left: 11px;
 }
+
+/* .logo > a {
+    text-decoration: none;
+    color: inherit;
+} */
 
 .btn__basket {
     width: 115px;

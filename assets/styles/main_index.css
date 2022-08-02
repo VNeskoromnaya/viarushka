@@ -36,6 +36,10 @@
     position: relative;
 }
 
+.main__picture > img {
+    max-width: 100%;
+}
+
 .firstLayer {
     position: absolute;
     z-index: 10;

@@ -56,6 +56,7 @@
 .logo__text {
     font-family: 'Intro Demo Black CAPS', serif;
     font-size: 17.75px;
+    font-weight: 400;
     letter-spacing: 1.2px;
     margin-left: 11px;
 }
@@ -64,6 +65,7 @@
     width: 115px;
     height: 38px;
     font-size: 13px;
+    font-weight: 400;
     letter-spacing: 1px;
     line-height: 13px;
 } 

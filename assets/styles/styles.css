@@ -11,7 +11,7 @@
 /* Для title любого уровня */
 @font-face {
     font-family: 'Intro Demo Black CAPS';
-    src: url('/assets/fonts/Intro/IntroDemo-BlackCAPS.otf');
+    src: url('./assets/fonts/Intro/IntroDemo-BlackCAPS.otf');
 }
 
 /* для текстa */

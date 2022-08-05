@@ -1,7 +1,7 @@
-@import url('assets/styles/header.css');
-@import url('/assets/styles/main_index.css');
-@import url('/assets/styles/main_facilities.css');
-@import url('/assets/styles/footer.css');
+@import url('header.css');
+@import url('main_index.css');
+@import url('main_facilities.css');
+@import url('footer.css');
 
 /* @font-face {
     font-family: 'Intro Demo Cond Light CAPS';
